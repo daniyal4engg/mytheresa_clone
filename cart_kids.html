@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>cart_kids</title>
+    <link rel="stylesheet" href="./cart_kids.css" />
+  </head>
+  <body>
+    <h1 class="Bag_name">CART PRODUCTS</h1>
+    <div>
+      <table>
+        <thead>
+          <tr>
+            <th>PRODUCT</th>
+            <th>PRODUCT Name</th>
+            <th>CATEGORY</th>
+            <th style="color: brown">PRICE</th>
+          </tr>
+        </thead>
+      </table>
+    </div>
+    <div id="container1">
+      <!-- code will imort here -->
+    </div>
+    <div class="totalDisplay">
+      <h1 class="Tamount">TOTAL AMOUNT</h1>
+      <button onclick="window.location.href='kid_checkout.html'">
+        PROCEED TO CHECKOUT
+      </button>
+    </div>
+  </body>
+</html>
+<script>
+  var cartArray_kids = JSON.parse(localStorage.getItem("cartItem"));
+  //   console.log(cartArray_kids);
+  cartArray_kids.map(function (data, index) {
+    var div = document.createElement("div");
+    // img
+    var img = document.createElement("img");
+    img.setAttribute("src", data.image_url);
+    // name
+    var name = document.createElement("p");
+    name.textContent = data.name;
+
+    var div1 = document.createElement("div");
+    div1.setAttribute("class", "flexDiv");
+    //category
+    var category = document.createElement("p");
+    category.textContent = data.category;
+    // price
+    var price = document.createElement("p");
+    price.textContent = `$${data.price}`;
+    price.style.color = "brown";
+    // REMOVE ITEM
+    var del = document.createElement("p");
+    del.textContent = "X";
+    del.style.backgroundColor = "yellowgreen";
+    del.style.borderRadius = "50%";
+    del.style.padding = "5px";
+    del.style.color = "black";
+    del.style.fontWeight = "bold";
+    del.style.fontSize = "15px";
+    del.style.cursor = "pointer";
+    del.addEventListener("click", function () {
+      deleteTask(index);
+    });
+    // button
+
+    div1.append(category, price, del);
+    div.append(img, name, div1);
+    document.querySelector("#container1").append(div);
+  });
+  var total = cartArray_kids.reduce(function (ac, cv) {
+    return ac + Number(cv.price);
+  }, 0);
+  localStorage.setItem("total_amount", JSON.stringify(total));
+
+  //using total with local storage
+  var T = JSON.parse(localStorage.getItem("total_amount"));
+  function deleteTask(index) {
+    cartArray_kids.splice(index, 1);
+    console.log(cartArray_kids);
+    localStorage.setItem("cartItem", JSON.stringify(cartArray_kids));
+    window.location.reload(true);
+  }
+  //   console.log(total);
+  document.querySelector(".Tamount").innerHTML = `TOTAL AMOUNT: $${T}`;
+</script>

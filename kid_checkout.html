@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {
+  font-family: Arial;
+  font-size: 17px;
+  padding: 8px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.header001{
+  border: black solid 1px;
+  height: 90px;
+  width: 100%;
+  padding: 20px;
+}
+.row {
+  margin: 0 -16px;
+  display: flex;
+}
+
+
+.col-50{
+  width: 500px;
+  margin-left: 50px;
+ padding-top: 20px;
+}
+.js00001{
+  width: 100%;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.col-25{
+  margin-left: 300px;
+  margin-top: 50px;
+}
+
+.container {
+  /* background-color: #f2f2f2; */
+  padding: 5px 20px 15px 20px;
+  border: 1px solid lightgrey;
+  border-radius: 3px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+input[type=text] {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+label {
+  margin-bottom: 10px;
+  display: block;
+}
+
+.icon-container {
+  margin-bottom: 20px;
+  padding: 7px 0;
+  font-size: 24px;
+}
+
+#btn {
+  background-color: #3f8320;
+  color: white;
+  padding: 12px;
+  margin: 10px 90px;
+  border: none;
+  width: 50%;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 17px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.btn:hover {
+  background-color: #45a049;
+}
+
+a {
+  color: #2196F3;
+}
+
+hr {
+  border: 1px solid lightgrey;
+}
+
+span.price {
+  float: right;
+  color: grey;
+}
+.bestsellers_2{
+  background-color: rgb(207, 206, 168);
+  padding: 10px;
+}
+/* foo */
+.foo{
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  margin: auto;
+  /* align-items: center; */
+}
+.tele{
+border: 1px solid black;
+width: 500px;
+height: 230px;
+text-align: center;
+margin: 5px;
+padding: 5px;
+}
+.cust{
+  width: 500px;
+  border: 1px solid black;
+  text-align: center;
+  padding: 5px;
+}
+.cpy{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.term{
+  display: flex;
+  justify-content: space-around;
+}
+.term > p{
+  margin: 10px 5px;
+}
+/*  */
+.navbar {
+        width: 80%;
+        margin: auto;
+      
+
+      }
+      .pages {
+        display: flex;
+        justify-content: space-between;
+      }
+      .left {
+        display: flex;
+      }
+      .right {
+        display: flex;
+      }
+      .left > div {
+        margin: 0px 8px;
+        padding: 10px;
+      }
+      .right > div {
+        margin: 0px 8px;
+        padding: 10px;
+      }
+      .Web_name{
+        text-align: center;
+      }
+      .back{
+        background-color: #000000;
+        color: white;
+      }
+</style>
+</head>
+<body>
+  <div class="back">
+  <nav class="navbar">
+    <div class="pages">
+      <!-- left -->
+      <div class="left">
+        <div class="men" onclick="window.location.href='men.html' ">
+          MEN
+        </div>
+        <div class="womemen" onclick="window.location.href='women.html' ">
+          WOMEN
+        </div>
+        <div class="kid" onclick="window.location.href='kid.html' ">
+          KID
+        </div>
+      </div>
+      <!-- right -->
+      <div class="right">
+        <div class="signin" onclick="window.location.href='signup.html' ">
+          Signup for Newsletter
+        </div>
+        <div class="login" onclick="window.location.href='myaccount.html' ">
+          My Account
+        </div>
+        <div
+          class="wishlist"
+          onclick="window.location.href='myWishList.html' "
+        >
+          My Wishlist
+        </div>
+        <div class="country" onclick="window.location.href='home.html' ">
+          Country | English
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!--  -->
+  <header>
+  
+    <h1 class="Web_name">MYTHERESA</h1>
+    <hr>
+    </div>
+  </header>
+  </div>
+  <!--  -->
+<h1>Select a Shipping method</h1>
+<div class="box123">
+  <div class="col-75">
+    <div class="container">
+      <form style="background-color: rgb(207, 206, 168);">
+      
+        <div class="row">
+          <div class="col-50">
+            <h3 style="color: #000000;">Add Your Shipping Address</h3>
+            <label for="fname" >Full Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Enter youur Full Name">
+            <label for="number" >Mobile Number</label>
+            <input type="text" id="email" placeholder="Enter your mobile number">
+            <label for="adr" >Pincode</label>
+            <input type="text" id="adr" name="address" placeholder="Enter your Pincode">
+            <label for="city"> City</label>
+            <input type="text" id="city" name="city" placeholder="Select your city or town">
+            <label for="email" >State</label>
+            <input type="text" id="email" name="email" placeholder="Select your State">
+            <label for="adr" >Building name or Number</label>
+            <input type="text" id="adr" name="address" placeholder="Enter your Building Name">
+            <label for="city" >Street name or number</label>
+            <input type="text" id="city" name="city" placeholder="Flat/House number, Floor">
+            <label for="city" >Landmark</label>
+            <input type="text" id="city" name="city" placeholder="Landmark">
+            <label for="city" >Address Type</label>
+            <input type="radio" value="HTML"> Home 
+            <input type="radio" value="HTML"> Office
+          </div>
+
+
+          <div class="col-25">
+            <div class="container" style="font-weight: bold;">
+              <h4>Your order summary <span class="price" style="color:black"><i class="fa fa-shopping-cart"></i> <b>1</b></span></h4>
+              <hr>
+              <p>Product</p> 
+              <img src="https://img.mytheresa.com/560/560/33/jpeg/catalog/product/70/P00650700_b1.jpg" alt="" height="80px">
+              <p><a href="./shooping.html"></a></p>
+              <p>Quantity: <span class="qty_check"></span></a></p>
+              <p> Price</a> <span class="price">₹1149</span></p>
+              <hr>
+              <p>Total <span class="price" style="color:black"><b class="Tprice">₹11</p>
+            </div>
+          </div>
+        </div>
+
+    
+      </form>
+    </div>
+  </div>
+  <br><br><hr><br><br>
+
+
+  <div class="js00001">
+    <div class="col-50">
+
+      <h3>Payment</h3>
+      <label for="fname">Accepted Cards</label>
+      <div class="icon-container">
+        <i class="fa fa-cc-visa" style="color:navy;"></i>
+        <i class="fa fa-cc-amex" style="color:blue;"></i>
+        <i class="fa fa-cc-mastercard" style="color:red;"></i>
+        <i class="fa fa-cc-discover" style="color:orange;"></i>
+      </div>
+      <label for="cname">Name on Card</label>
+      <input type="text" id="cname" name="cardname" placeholder="Name on card">
+      <label for="ccnum">Credit card number</label>
+      <input type="text" id="ccnum" name="cardnumber" placeholder="Enter your 16 digit card number">
+      <label for="expmonth">Exp Month</label>
+      <input type="text" id="expmonth" name="expmonth" placeholder="mm">
+      <div class="row">
+        <div class="col-50">
+          <label for="expyear">Exp Year</label>
+          <input type="text" id="expyear" name="expyear" placeholder="Year">
+        </div>
+        <div class="col-50">
+          <label for="cvv">CVV</label>
+          <input type="text" id="cvv" name="cvv" placeholder="CVV">
+        </div>
+      </div>
+
+      
+      <br>
+      <input type="submit" value="CONFIRM ORDER"  id="btn" >
+    </div>
+  </div>  
+
+
+
+  <div>
+    <div class="bestsellers_2" style="text-align: center;">
+        <div>
+            <h2>Subscribe to our awesome emails.</h2>
+            <h4>Get our latest offers and news straight in your inbox.</h4>
+            <input type="type" placeholder="Please enter an email address" class="subscribebox12">
+            <input type="Subscribe" placeholder="Subscribe" id="subscribebutton">
+        </div>
+        <div>
+            <h2>Download our apps</h2>
+            <h4>Shop our products and offers on-the-go.</h4>
+            <img src="https://miro.medium.com/max/1200/1*V9-OPWpauGEi-JMp05RC_A.png" alt="" height="50px">
+            <img src="https://miro.medium.com/max/1200/1*OIIv4FEjJQMqh-zEPhtlYA.png" alt="" height="50px">
+        </div>
+    </div>
+</div>
+
+<hr id="underline">
+<div >
+
+  <p style="text-align: center;">You can also place your order via telephone.</p>
+  <div class="foo">
+<div class="tele">
+  <i class="fa fa-phone" style="font-size:48px;color:rgb(0, 0, 0)"></i>
+  <p>+49 89 127695-101</p>
+  <p>Available 24/7</p>
+</div>
+<div class="cust">
+  <i class="fa fa-envelope" style="font-size:48px;color:rgb(0, 0, 0)"></i>
+  <p>customercare@mytheresa.com</p>
+  <p>Please note that due to a high amount of requests, we might take a</p>
+  <p>few days to get back to you. We apologize for any inconvenience </p>
+  <p></p>
+</div>
+  </div>
+  <hr>
+  <div class="cpy">
+    <p>copyright © 2006-2022 mytheresa.com</p>
+    <div class="term">
+      <p>terms of use</p>
+      <p>privacy policy</p>
+      <p>imprint</p>
+    </div>
+  </div>
+</div>
+  
+</div>
+
+</body>
+</html>
+
+
+<script>
+  var cartArray_kids = JSON.parse(localStorage.getItem("cartItem"))
+  var qty=cartArray_kids.length
+  document.querySelector('.qty_check').innerHTML=qty
+ var T = JSON.parse(localStorage.getItem("total_amount"));
+document.querySelector(".Tprice").innerHTML=T;
+
+  document.querySelector("#btn").addEventListener("click",function(){
+        window.location.href = "thankyoupage.html";
+    });
+    document.querySelector('#btn').addEventListener("click",function(){
+      window.location.href='Kid_thankyou.html'
+    })
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

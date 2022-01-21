@@ -1,0 +1,181 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+/* Nav CSS */
+.navbar {
+  width: 80%;
+  margin: auto;
+}
+.pages {
+  display: flex;
+  justify-content: space-between;
+}
+.left {
+  display: flex;
+}
+.right {
+  display: flex;
+}
+.left > div {
+  margin: 0px 8px;
+  padding: 10px;
+}
+.right > div {
+  margin: 0px 8px;
+  padding: 10px;
+}
+/* header css */
+header {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.Web_name {
+  /* font-size: 30px; */
+  font-family: Arial, Helvetica, sans-serif;
+}
+.shop_bag {
+  display: flex;
+  padding: 10px;
+  margin: auto 0px;
+}
+.shop_bag > p {
+  margin: 5px 5px;
+}
+
+.shop_bag > i {
+  margin: 0px 5px;
+  /* padding: 10px; */
+}
+
+.sale70 {
+  /* position: fixed; */
+}
+.main_category {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: auto;
+}
+#search {
+  width: 150px;
+  height: 30px;
+}
+/* service & footer */
+.service_1 {
+  display: flex;
+}
+
+/*.service  */
+.service {
+  width: 80%;
+  margin: auto;
+  display: flex;
+}
+.service > div {
+  width: 22%;
+  margin: auto;
+  margin-top: 0%;
+}
+.service > div > h3 {
+  font-weight: bold;
+  font-size: larger;
+}
+/* icon */
+.icon {
+  display: flex;
+}
+.icon > i {
+  margin: 0px 10px;
+}
+.policy {
+  display: flex;
+  margin-top: 15px;
+}
+.policy > p {
+  margin-top: 0px;
+}
+/* footer */
+footer {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  font-size: larger;
+}
+footer > div {
+  display: flex;
+}
+/*  */
+/*  */
+/*  */
+#kid_main_product {
+  display: flex;
+}
+
+#container1 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+#container1 > div {
+  text-align: center;
+}
+#container1 > div > img {
+  text-align: center;
+  width: 200px;
+  height: 200px;
+}
+.flexDiv {
+  /* display: flex; */
+  /* justify-content: center; */
+  text-align: center;
+  /* margin: 0px 40px 0px 2px; */
+}
+.flexDiv > p:nth-child(2) {
+  /* text-decoration: line-through; */
+}
+button {
+  background-color: rgb(0, 0, 0);
+  color: white;
+  font-weight: bold;
+  padding: 5px;
+}
+button:hover {
+  color: rgb(0, 0, 0);
+  background-color: white;
+}
+#kid_main_product > .filter > div {
+  display: flex;
+  /* width: 30%; */
+  margin-left: 20px;
+}
+#kid_main_product > .filter > div > p {
+  margin-top: 0px;
+}
+.kid_main_product {
+  width: 20%;
+  display: flex;
+}
+/* filter */
+.filterCat {
+  display: flex;
+  background-color: black;
+  color: white;
+  border: 1px solid black;
+  padding: 5px;
+  font-size: larger;
+}
+.filterCat > div {
+  display: flex;
+  /* margin-left: 5px; */
+  margin-right: 5px;
+  font-weight: bold;
+}
+.filterCat > div > p {
+  margin-top: 0px;
+}

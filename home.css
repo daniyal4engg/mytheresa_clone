@@ -1,0 +1,261 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+/* Nav CSS */
+.navbar {
+  width: 80%;
+  margin: auto;
+}
+.pages {
+  display: flex;
+  justify-content: space-between;
+}
+.left {
+  display: flex;
+}
+.right {
+  display: flex;
+}
+.left > div {
+  margin: 0px 8px;
+  padding: 10px;
+}
+.right > div {
+  margin: 0px 8px;
+  padding: 10px;
+}
+/* header css */
+header {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.Web_name {
+  /* font-size: 30px; */
+  font-family: Arial, Helvetica, sans-serif;
+}
+.shop_bag {
+  display: flex;
+  padding: 10px;
+  margin: auto 0px;
+}
+.shop_bag > p {
+  margin: 5px 5px;
+}
+
+.shop_bag > i {
+  margin: 0px 5px;
+  /* padding: 10px; */
+}
+
+.sale70 {
+  /* position: fixed; */
+}
+.main_category {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: auto;
+}
+#search {
+  width: 150px;
+  height: 30px;
+}
+/* main */
+main > .main_top {
+  justify-content: center;
+  width: 100%;
+  text-align: center;
+  margin: auto;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+.main_top > img {
+  width: 80%;
+  margin: auto;
+}
+/* main_new_arrival */
+.main_new_arrival {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+.card_arrival {
+  display: flex;
+}
+.card {
+  margin: 5px;
+}
+.card > img {
+  width: 300px;
+  height: 330px;
+}
+.card > h5 {
+  /* font-size: 25px; */
+  width: 0px 10px;
+}
+.view_btn {
+  color: white;
+  background-color: black;
+  padding: 7px 10px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+/* office_essentials */
+.office_essentials {
+  display: flex;
+  width: 80%;
+  margin: auto;
+  justify-content: center;
+  margin-bottom: 30px;
+  /* box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px; */
+}
+
+.office_text {
+  width: 40%;
+  background-color: black;
+  color: white;
+  justify-content: center;
+  align-content: center;
+  padding: 100px 30px;
+  font-weight: bold;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+.office_img {
+  width: 40%;
+  height: 480px;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+.office_btn {
+  color: black;
+  background-color: white;
+  padding: 5px;
+  cursor: pointer;
+}
+.office_btn:hover {
+  background-color: black;
+  color: white;
+}
+/* sale */
+.sale {
+  display: flex;
+  width: 80%;
+  margin: auto;
+}
+.sale button {
+  padding: 3px;
+}
+.sale button:hover {
+  background-color: black;
+  color: white;
+}
+.percentage {
+  background-color: rgb(209, 201, 201);
+  width: 50%;
+  /* height: 500px; */
+  color: red;
+  font-size: 200px;
+  text-align: center;
+  min-height: 400px;
+  padding-top: 100px;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+.percentage_text {
+  width: 50%;
+  /* height: 500px; */
+  background-color: black;
+  color: white;
+  /* min-height: 400px; */
+  min-height: 400px;
+  padding-top: 100px;
+  padding-left: 20px;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+.sale_h1 {
+  font-weight: bold;
+  font-size: 70px;
+  justify-content: center;
+}
+/* .btn */
+.btn {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+/* .hr */
+hr {
+  width: 80%;
+  margin: auto;
+}
+/* .text_below */
+.text_below {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 70%;
+  margin: auto;
+  padding: 20px;
+  /* text-align: center; */
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+.text_below > h3 {
+  text-align: center;
+}
+/*  */
+.exp_quality {
+  display: flex;
+}
+.exp > p,
+.quality > p,
+.text_below > h3 {
+  font-weight: bold;
+  font-size: 25px;
+}
+/*  */
+.service_1 {
+  display: flex;
+}
+
+/*.service  */
+.service {
+  width: 80%;
+  margin: auto;
+  display: flex;
+}
+.service > div {
+  width: 22%;
+  margin: auto;
+  margin-top: 0%;
+}
+.service > div > h3 {
+  font-weight: bold;
+  font-size: larger;
+}
+/* icon */
+.icon {
+  display: flex;
+}
+.icon > i {
+  margin: 0px 10px;
+}
+.policy {
+  display: flex;
+  margin-top: 15px;
+}
+.policy > p {
+  margin-top: 0px;
+}
+/* footer */
+footer {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  font-size: larger;
+}
+footer > div {
+  display: flex;
+}

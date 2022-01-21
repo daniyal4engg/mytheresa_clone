@@ -1,0 +1,100 @@
+#container1 > div {
+  font-family: Palatino, URW Palladio L, serif;
+  display: flex;
+  margin: 10px;
+  align-items: center;
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+#container1 {
+  width: 895px;
+  font-weight: bold;
+  font-size: larger;
+}
+#container1 > div > img {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+}
+#container1 > div > p {
+  width: 260px;
+  text-align: center;
+}
+#container1 > div > .flexDiv {
+  width: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#container1 > div > .flexDiv > p:nth-child(1) {
+  width: 200px;
+  text-align: center;
+  font-size: larger;
+}
+#container1 > div > .flexDiv > p:nth-child(2) {
+  text-align: center;
+  width: 200px;
+  font-size: 25px;
+}
+table {
+  background-color: black;
+  color: white;
+}
+thead,
+tr,
+th {
+  border: 1px solid black;
+}
+thead {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+thead > tr > th:nth-child(1) {
+  width: 200px;
+}
+thead > tr > th:nth-child(2) {
+  width: 260px;
+}
+thead > tr > th:nth-child(3) {
+  width: 200px;
+}
+thead > tr > th:nth-child(4) {
+  width: 200px;
+}
+/* TOTAL AMOUNT */
+.Bag_name {
+  text-align: center;
+}
+.totalDisplay {
+  /* border: 1px solid black; */
+  width: 875px;
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 10px;
+}
+.totalDisplay > h1 {
+  margin-top: 0px;
+  color: rgb(212, 120, 44);
+}
+.totalDisplay > button {
+  padding: 0px 20px;
+  font-size: larger;
+  font-weight: bold;
+  background-color: rgb(30, 116, 30);
+  color: white;
+  height: 40px;
+  margin-top: 0px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.totalDisplay > button :hover {
+  color: rgb(30, 116, 30);
+  background-color: white;
+}
