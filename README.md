@@ -25,11 +25,11 @@ AS part of unit 2 construct week i cloned the frontend of Mytheresa to the best 
 
 1. This is the Landing page of mytheresa.com
 
-![image](</screenshots/Screenshot%20(444).png>)
+![image](<./screenshots/Screenshot%20(444).png>)
 
 2.This is Sign-up and Sign-in Page
 
-![image](<../mytheresa_clone/screenshots/Screenshot%20(460).png>)
+![image](<./screenshots/Screenshot%20(460).png>)
 
 3.This is new arrival product on landing Page
 
