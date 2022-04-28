@@ -170,6 +170,7 @@ footer > div {
 }
 .login_button:hover {
   color: black;
-  backgroun-color: white;
+  background-color: white;
   padding: 4px 8px;
+  cursor: pointer;
 }

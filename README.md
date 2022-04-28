@@ -1,19 +1,12 @@
-# mytheresa.com Clone
+# mytheresa.com clone
 
-An Over the top Streaming service to enjoy the entertainment over the internet.
+Mytheresa is an online shopping destination for children, men and women's luxury clothing, bags, shoes, and accessories.
 
-AS part of unit 2 construct week we cloned the frontend of zee5.com to the best of our ability in a team of 4 within the span of 5 days.
+AS part of unit 2 construct week i cloned the frontend of Mytheresa to the best of my ability as individual in the span of 5 days.
 
-[Deploy link](https://zee5clone.netlify.app/)
+[Deploy link](https://mytheresashp.netlify.app/)
 
-[Blog link](https://medium.com/@daniyal4engg/zee5-website-cloning-aac5446b908e)
-
-## collaborators:
-
-- [Mayank Dhyani](github.com/https://github.com/mayank8887)
-- [Rohit Raj](https://github.com/Rohitraj97)
-- [Salem Basumata](https://github.com/salembasumata)
-- [Daniyal Shaikh](https://github.com/daniyal4engg)
+[Blog link](https://medium.com/@daniyal4engg/clone-of-mytheresa-com-41a30f16053e)
 
 ## Tech Stack:
 
@@ -26,32 +19,37 @@ AS part of unit 2 construct week we cloned the frontend of zee5.com to the best 
 
 ## Features:
 
-1. Social Sign-up/Sign-in.
-2. User authentication
-3. Access API data without buffering.
-4. Filter by api Category
-
-## Try it out locally
-
-This is a simple project. You can use any server to serve up the html pages. Once the server is runnning just go to the localhost link the server provides.
+1.Social Sign-up/Sign-in. 2. basic User authentication with Local Storage. 3. Local Storage to manage user data . 4. Add to cart. 5. Delete products from cart. 6. payment forms for valid users
 
 <h1>Snapshots of our project</h1>
 
-1. This is the Landing page of Zee5
+1. This is the Landing page of mytheresa.com
 
-![image](./screenshots/Image20220428172707.png)
+![image](</screenshots/Screenshot%20(444).png>)
 
-2.This is Sign-up and Sign IN Page
+2.This is Sign-up and Sign-in Page
 
-![image](./screenshots/Image20220428172713.png)
+![image](<../mytheresa_clone/screenshots/Screenshot%20(460).png>)
 
-3.This is various movie categogy page
+3.This is new arrival product on landing Page
 
-![image](./screenshots/Image20220428172715.png)
+![image](<./screenshots/Screenshot%20(455).png>)
 
-4.This is video play Feature (Api Data play)
+4.This is kids categogy page
 
-![image](./screenshots/Image20220428172719.png)
+![image](<./screenshots/Screenshot%20(456).png>)
+
+5.This is shuffle product page
+
+![image](<./screenshots/Screenshot%20(457).png>)
+
+6.This is cart with added items page
+
+![image](<./screenshots/Screenshot%20(458).png>)
+
+7.This is Payment page
+
+![image](<./screenshots/Screenshot%20(459).png>)
 
 <!-- ![image](https://user-images.githubusercontent.com/93313435/165320378-08fd44db-504b-466b-8dcb-cd938073a090.png)
 
@@ -70,3 +68,5 @@ This is a simple project. You can use any server to serve up the html pages. Onc
 7.Otp Page
 
 ![image](https://user-images.githubusercontent.com/93313435/165320905-2cf11187-82e8-448f-aa6f-153510dc1c49.png) -->
+
+![2022-01-25 15-53-41 (3)](https://user-images.githubusercontent.com/56603609/151235890-c6ac6125-078e-45d7-81c1-7d655479a75e.gif)
