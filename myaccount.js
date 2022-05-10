@@ -27,7 +27,6 @@ registeredUsers = JSON.parse(localStorage.getItem("newUser"));
 // console.log(registeredUsers);
 function login(event) {
   // console.log("workin");
-  // console.log("workin");
   event.preventDefault();
   var login_email = document.querySelector(".loginEmail").value;
   var login_pass = document.querySelector(".loginPass").value;
