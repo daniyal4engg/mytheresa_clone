@@ -21,7 +21,7 @@ function signinDetails(event) {
   window.location.href = "myaccount.html";
 }
 
-//  login
+//  login sc
 document.querySelector(".login_form").addEventListener("submit", login);
 registeredUsers = JSON.parse(localStorage.getItem("newUser"));
 // console.log(registeredUsers);
